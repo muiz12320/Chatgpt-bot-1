@@ -20,15 +20,15 @@
   ],
   "env": {
     "BOT_TOKEN": { "description": "telegram bot token here",
-      "required": true
+      "required": false
     },
     "OWNER_ID": {
       "description": "Owner id OF TELEGRAM ",
-      "required": true
+      "required": false
     },
     "SUPPORT_GRP": {
       "description": "Your Support Group without @",
-      "required": true
+      "required": false
     },
     "STKR": {
       "description": "Sticker for start", 
@@ -36,19 +36,19 @@
     },
     "START_IMG": {
       "description": "Start Image For Bot.",
-      "required": true
+      "required": false
     },
     "UPDATE_CHNL": {
       "description": "Your Updates Channel without @",
-      "required": true
+      "required": false
     },
     "API_ID": { "description": "telegram api id here",
-      "required": true
+      "required": false
     },
     "API_HASH": {
       "description": "telegram api hash here",
-      "required": true
+      "required": false
     }
   },
-  "repository": "https://github.com/muiz12320/Chatgpt-bot1"
+  "repository": "https://github.com/muiz12320/Chatgpt-bot-1"
 }
