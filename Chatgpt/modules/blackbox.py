@@ -24,10 +24,10 @@ async def blackbox_chat(bot, message):
     # TELEGRAM : @Mr_Sukkun
     #  GITHUB : NOOB-MUKESH
     try:
-             await message.reply_text(
-            "Please Wait 🏴‍☠️")
         response = requests.get(f'https://mukesh-api.vercel.app/blackbox?query={a}') 
-        if response.status_code==200:
+        if response.status_code==20
+            await message.reply_text(
+            "Please Wait 🏴‍☠️")
             await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
             x=response.json()["results"]
             
