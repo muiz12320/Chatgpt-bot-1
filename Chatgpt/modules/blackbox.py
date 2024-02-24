@@ -19,13 +19,13 @@ async def blackbox_chat(bot, message):
             await message.reply_text(
             "Example:**\n\n`/blackbox write simple flask app code`")
     else:
-            await message.reply_text(
-            "Please Wait 🏴‍☠️")
         a = message.text.split(' ', 1)[1]
     # CREDITS
     # TELEGRAM : @Mr_Sukkun
     #  GITHUB : NOOB-MUKESH
     try:
+             await message.reply_text(
+            "Please Wait 🏴‍☠️")
         response = requests.get(f'https://mukesh-api.vercel.app/blackbox?query={a}') 
         if response.status_code==200:
             await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
